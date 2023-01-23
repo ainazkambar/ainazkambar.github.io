@@ -1,0 +1,20 @@
+//Создание файла package.json:
+npm init
+
+//В файле package.json указываем тип работы
+"type": "module",
+
+//Если раньше не устанавливали gulp глобально, то прописываем следующее:
+npm i gulp-cli -g
+
+//Устанавливаем все необходимые пакеты
+npm i -D gulp del gulp-file-include gulp-replace gulp-webp-html-nosvg gulp-version-number gulp-plumber gulp-notify browser-sync sass gulp-sass gulp-rename gulp-clean-css gulp-webpcss gulp-autoprefixer gulp-group-css-media-queries webp-converter@2.2.3 webpack webpack-stream gulp-webp gulp-imagemin gulp-newer gulp-fonter gulp-ttf2woff2
+
+
+//При возникновеныы проблем с gulp-fonter
+Если актуально, открываем node_modules/gulp-fonter/dist/index.js,
+
+- находим строку:
+newFont.path = source.dirname + '\\' + source.stem + '.' + type;
+
+- меняем '\\' на '/'
