@@ -1,9 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 @@include('html/head.html',{
-    "title": ""
+    "title": "Pulse"
 })
 <body>
+    <div class="promo">
+        <div class="container">
+            @@include('html/header.html',{})
+            <div class="promo__wrapper">
+                <h1 class="promo__header">Подбор пульсометра</h1>
+                <h2 class="promo__subheader">с учётом Вашего уровня подготовки</h2>   
+                <div class="promo__icons">
+                    <div class="promo__icon">
+                        <img src="img/promo_stopwatch.png" alt="stopwatch"><br>
+                        Время подбора:<br>10 минут
+                    </div>
+                    <div class="promo__icon">
+                        <img src="img/promo_cart.png" alt="cart"><br>
+                        Бесплатная<br>доставка
+                    </div>
+                    <div class="promo__icon">
+                        <img src="img/promo_messages.png" alt="messages"><br>
+                        Ответим<br>на все вопросы
+                    </div>
+                </div>
+                <button class="button button_main">Заказать консультацию</button>
+                <div class="promo__link">
+                    или <a href="#">ПЕРЕЙТИ В КАТАЛОГ</a>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 <script src="js/app.min.js"></script>
 </html>
