@@ -42,4 +42,14 @@
         color: #0D0D0D;
         margin-bottom: 20px;
     }
+
+    &__descr {
+        line-height: 18px;
+    }
+
+    &__link {
+        
+        color: #FF0000;
+        text-decoration: underline;
+    }
 }
