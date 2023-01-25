@@ -67,8 +67,12 @@
             <div class="consultation__descr">
                 Просто заполните форму заявки <br>и мы перезвоним вам в течении 10 минут
             </div>
-            <form action="#">
-                <input placeholder="Ваше имя" type="text">
+            <form class="feed-form" action="#">
+                <input name="name" rqeuired placeholder="Ваше имя" type="text">
+                <input name="phone" required placeholder="Ваш телефон" type="number">
+                <input name="email" required placeholder="Ваше e-mail" type="email">
+                <!-- <input type="submit" value="ЗАКАЗАТЬ КОНСУЛЬТАЦИЮ"> -->
+                <button class="button button_submit">ЗАКАЗАТЬ КОНСУЛЬТАЦИЮ</button>
             </form>
         </div>
     </div>

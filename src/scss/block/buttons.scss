@@ -16,4 +16,19 @@
         font-size: 16px;
         margin-bottom: 12px;
     }
+
+    &_submit {
+        width: 303px;
+        height: 58px;
+        left: 0px;
+        top: 200px;
+        border-radius: 7px;
+        background: #C70101;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 25px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
 }

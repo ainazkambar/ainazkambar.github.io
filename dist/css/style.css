@@ -335,6 +335,21 @@ h6 {
   margin-bottom: 12px;
 }
 
+.button_submit {
+  width: 303px;
+  height: 58px;
+  left: 0px;
+  top: 200px;
+  border-radius: 7px;
+  background: #C70101;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 25px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
 .title {
   font-weight: 500;
   font-size: 30px;
@@ -432,6 +447,29 @@ h6 {
   font-size: 20px;
   line-height: 30px;
   color: #FFFFFF;
+}
+
+.feed-form {
+  margin-top: 26px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.feed-form input {
+  width: 300px;
+  height: 50px;
+  padding: 20px;
+  border-radius: 7px;
+  margin-bottom: 15px;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 66px;
+  color: #4B4B4B;
 }
 
 .webp .promo{ background: url(../img/promo/bg.webp); }
