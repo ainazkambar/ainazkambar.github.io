@@ -16,7 +16,6 @@ export const path = {   //Создаем общий объект path
         images: `${srcFolder}/img/**/*.{jpg,jpeg,png,gif,webp,ico}`,
         svg: `${srcFolder}/img/**/*.svg`,
         js: `${srcFolder}/js/app.js`,
-        css: `${srcFolder}/css/**/*.css`,
         scss: `${srcFolder}/scss/style.scss`,
         html: `${srcFolder}/*.html`,
         files: `${srcFolder}/files/**/*.*`
@@ -24,7 +23,6 @@ export const path = {   //Создаем общий объект path
     watch: {
         images: `${srcFolder}/img/**/*.{jpg,jpeg,png,svg,gif,ico,webp}`,
         js: `${srcFolder}/js/**/*.js`,
-        css: `${srcFolder}/css/**/*.css`,
         scss: `${srcFolder}/scss/**/*.scss`,
         html: `${srcFolder}/**/*.html`,
         files: `${srcFolder}/files/**/*.*`
