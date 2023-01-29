@@ -24,7 +24,7 @@
                         Ответим<br>на все вопросы
                     </div>
                 </div>
-                <button class="button button_main">Заказать консультацию</button>
+                <button data-modal="consultation" class="button button_main">Заказать консультацию</button>
                 <div class="promo__link">
                     или <a href="#">ПЕРЕЙТИ В КАТАЛОГ</a>
                 </div>
@@ -37,9 +37,10 @@
     @@include('html/sections/catalog.html',{})
     @@include('html/sections/feedback.html',{})
     @@include('html/base/footer.html',{})
+    @@include('html/sections/modal.html',{})
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/1.2.1/jquery-migrate.min.js"></script>
+    <script type="text/javascript" src="files/slick/slick.min.js"></script>
+    <script src="js/app.min.js"></script>
 </body>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/1.2.1/jquery-migrate.min.js"></script>
-<script type="text/javascript" src="files/slick/slick.min.js"></script>
-<script src="js/app.min.js"></script>
 </html>
