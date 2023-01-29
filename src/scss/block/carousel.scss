@@ -4,8 +4,12 @@
 
     &__inner {
         position: relative;
-        width: 750px;
+        max-width: calc(100% - 150px);
         margin: 0 auto;
+
+        img {
+            width: 100%;
+        }
     }
 }
 
@@ -21,4 +25,29 @@
 .slick-next {
     right: -66px;
     left: auto;
+}
+
+.slick-dots {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px auto 0;
+    width: 50px;
+
+    li {
+        width: 5px;
+        height: 5px;
+        background-color: #aeaeae;
+        transition: 0.5s all;
+    }
+
+    .slick-active {
+        width: 7px;
+        height: 7px;
+        background-color: $main-color;
+    }
+
+    button {
+        visibility: hidden;
+    }
 }

@@ -8,8 +8,9 @@
 }
 
 .container {
-    max-width: 950px;
+    max-width: 990px;
     margin: 0 auto;
+    padding: 0 20px;
 }
 
 @import "block/promo.scss";
@@ -21,3 +22,7 @@
 @import 'block/forms.scss';
 @import 'block/carousel.scss';
 @import 'block/catalog.scss';
+@import 'block/review.scss';
+@import 'block/footer.scss';
+
+@import 'base/media.scss';
