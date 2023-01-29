@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.min.css?_v=20230129175050">
-    <link rel="stylesheet" type="text/css" href="files/slick/slick.css?_v=20230129175050"/>
+    <link rel="stylesheet" href="css/style.min.css?_v=20230129200823">
+    <link rel="stylesheet" type="text/css" href="files/slick/slick.css?_v=20230129200823"/>
     <title>Pulse</title>
 </head>
 <body>
@@ -84,9 +84,9 @@
         <div class="consultation__descr">
             Просто заполните форму заявки <br>и мы перезвоним вам в течении 10 минут
         </div>
-        <form class="feed-form" action="#">
+        <form id="consultation-form" class="feed-form" action="#">
             <input name="name" required placeholder="Ваше имя" type="text">
-            <input name="phone" required placeholder="Ваш телефон" type="number">
+            <input name="phone" required placeholder="Ваш телефон">
             <input name="email" required placeholder="Ваше e-mail" type="email">
             <button class="button button_submit">ЗАКАЗАТЬ КОНСУЛЬТАЦИЮ</button>
         </form>
@@ -327,9 +327,9 @@
         <div class="modal__subtitle">Просто заполните форму заявки</div>
         <div class="modal__descr">и мы перезвоним вам в течении 10 минут</div>
         <form class="feed-form" action="#">
-            <input name="name" required placeholder="Ваше имя" type="text">
-            <input name="phone" required placeholder="Ваш телефон" type="number">
-            <input name="email" required placeholder="Ваше e-mail" type="email">
+            <input name="name" placeholder="Ваше имя" type="text">
+            <input name="phone" placeholder="Ваш телефон">
+            <input name="email" placeholder="Ваше e-mail" type="email">
             <button class="button button_submit">Заказать консультацию</button>
         </form>
     </div>
@@ -338,9 +338,9 @@
         <div class="modal__subtitle">Ваш заказ:</div>
         <div class="modal__descr">Пульсометр Polar FT1</div>
         <form class="feed-form" action="#">
-            <input name="name" required placeholder="Ваше имя" type="text">
-            <input name="phone" required placeholder="Ваш телефон" type="number">
-            <input name="email" required placeholder="Ваше e-mail" type="email">
+            <input name="name" placeholder="Ваше имя" type="text">
+            <input name="phone" placeholder="Ваш телефон">
+            <input name="email" placeholder="Ваше e-mail" type="email">
             <button class="button button_submit">Купить</button>
         </form>
     </div>
@@ -350,9 +350,11 @@
         <div class="modal__descr">Наш менеджер свяжется с вами<br>в ближайшее время!</div>
     </div>
 </div>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.0/jquery.min.js?_v=20230129175050"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/1.2.1/jquery-migrate.min.js?_v=20230129175050"></script>
-    <script type="text/javascript" src="files/slick/slick.min.js?_v=20230129175050"></script>
-    <script src="js/app.min.js?_v=20230129175050"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.0/jquery.min.js?_v=20230129200823"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/1.2.1/jquery-migrate.min.js?_v=20230129200823"></script>
+    <script src="files/slick/slick.min.js?_v=20230129200823"></script>
+    <script src="files/jquery.validate.min.js?_v=20230129200823"></script>
+    <script src="files/jquery.maskedinput.min.js?_v=20230129200823"></script>
+    <script src="js/app.min.js?_v=20230129200823"></script>
 </body>
 </html>

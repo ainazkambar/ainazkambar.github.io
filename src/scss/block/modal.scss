@@ -50,6 +50,14 @@
     &__mini {
         min-height: 140px;
     }
+
+    .error {
+        color: red;
+    }
+
+    input.error {
+        border: 1px solid red;
+    }
 }
 
 #consultation, #order, #thanks {
