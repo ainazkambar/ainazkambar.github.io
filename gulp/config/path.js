@@ -8,6 +8,7 @@ export const path = {   //Создаем общий объект path
         images: `${buildFolder}/img/`,
         fonts: `${buildFolder}/fonts/`,
         js: `${buildFolder}/js/`,
+        libs: `${buildFolder}/libs/`,
         css: `${buildFolder}/css/`,
         html: `${buildFolder}/`,
         files: `${buildFolder}/files/`
@@ -16,13 +17,15 @@ export const path = {   //Создаем общий объект path
         images: `${srcFolder}/img/**/*.{jpg,jpeg,png,gif,webp,ico}`,
         svg: `${srcFolder}/img/**/*.svg`,
         js: `${srcFolder}/js/script.js`,
+        libs: `${srcFolder}/libs/**/*.*`,
         scss: `${srcFolder}/scss/style.scss`,
         html: `${srcFolder}/*.html`,
         files: `${srcFolder}/files/**/*.*`
     },
     watch: {
         images: `${srcFolder}/img/**/*.{jpg,jpeg,png,svg,gif,ico,webp}`,
-        js: `${srcFolder}/js/**/*.js`,
+        js: `${srcFolder}/js/script.js`,
+        libs: `${srcFolder}/libs/**/*.*`,
         scss: `${srcFolder}/scss/**/*.scss`,
         html: `${srcFolder}/**/*.html`,
         files: `${srcFolder}/files/**/*.*`
