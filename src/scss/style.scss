@@ -5,6 +5,7 @@
 
 * {
     font-family: 'Museo Sans Cyrl', sans-serif;
+    scroll-behavior: smooth;
 }
 
 .container {
@@ -25,5 +26,7 @@
 @import 'block/review.scss';
 @import 'block/footer.scss';
 @import 'block/modal.scss';
+@import 'block/pageup.scss';
 
 @import 'base/media.scss';
+@import 'base/animations.scss';

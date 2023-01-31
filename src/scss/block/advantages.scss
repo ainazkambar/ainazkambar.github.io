@@ -33,6 +33,12 @@
 
     &__icon {
         margin-bottom: 35px;
+
+        &_heartbeat {
+            animation-name: heartbeat;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+        }
     }
 
     &__title {

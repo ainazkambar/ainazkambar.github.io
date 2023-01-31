@@ -10,4 +10,4 @@ export function isWebp() {
         let className = support === true ? 'webp' : 'no-webp';
         document.documentElement.classList.add(className);
     });
-}
+};

@@ -4,7 +4,7 @@
     "title": "Pulse"
 })
 <body>
-    <section class="promo">
+    <section id="up" class="promo">
         <div class="container">
             @@include('html/base/header.html',{})
             <div class="promo__wrapper">
@@ -35,14 +35,16 @@
     @@include('html/sections/consultation.html',{})
     @@include('html/sections/carousel.html',{})
     @@include('html/sections/catalog.html',{})
-    @@include('html/sections/feedback.html',{})
+    @@include('html/sections/review.html',{})
     @@include('html/base/footer.html',{})
     @@include('html/sections/modal.html',{})
+    <a href="#up" class="pageup"><img src="img/chevron-up.svg" alt="up"></a>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/1.2.1/jquery-migrate.min.js"></script>
     <script src="files/slick/slick.min.js"></script>
+    <script src="files/wow.min.js"></script>
     <script src="files/jquery.validate.min.js"></script>
     <script src="files/jquery.maskedinput.min.js"></script>
-    <script src="js/app.min.js"></script>
+    <script src="js/script.min.js"></script>
 </body>
 </html>

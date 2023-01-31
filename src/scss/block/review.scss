@@ -6,6 +6,11 @@
     &__item {
         display: flex;
         margin-bottom: 70px;
+
+        &_fadeInUp {
+            animation-name: fadeInUp;
+            animation-duration: 2s;
+        }
     }
 
     &__icon {
